@@ -8,6 +8,7 @@ The input is some part of the name so far (ex: the last character, which could j
 We will do this using a number of approaches:
 1. Bigrams: Track the frequency that letters appear next to each other to build an output distribution: P(letter X \| letter Y just appeared)
 2. Bag of words?
+
 ### **Model 1: Bigrams**
 
 Go through each name, break it up into pairs of characters and count frequencies. This produces a 27x27 grid of counts. The rows are each letter, and the cols are the frequency that the col’s letter appeared after the row’s letter. Dividing each row by the row’s sum turns the row into a distribution (sums to 1).
