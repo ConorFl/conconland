@@ -28,6 +28,7 @@ Then we revisit the calculus. Notably:
 Some interesting observations when viewing the graph:
 - For addition in the graph, the local derivative will be 1.0 (c = a + b, dc/da = 1.0), so dL/dc = dL/dd * 1.0, therefore we basically just push back the gradient from the sum Value node.
 - For multiplication, the local derivative of one factor is the other (c = a * b, dc/da = b). So the gradients are just the factors swapped, times the gradient of the product Value node.
+
 ### **Moving from adding / multiplying to neurons**
 
 Pretty much the only operating missing on our Value class is an activation function like tanh, so we implement a tanh method.
@@ -38,7 +39,7 @@ We now manually calculate all the gradients by looking up the derivative of tanh
 For each op (+, \*, tanh), we created a new Value instance (out) and return it. We must now also codify how to calculate each gradient. Specifically, we define a function \_backward on out, which has a reference in scope to the two Value nodes used to create out, and sets their grad values appropriately.
 
 Finally, we set the final node’s gradient to 1.0 (dL/dL = 1.0 by default), then call \_backward() on all children is reverse topological order.
-### **Tada! Backpropagation!_**
+### **Tada! Backpropagation!**
 
 Major bug: when a variable is used more than once (ex: a + a = b, or a lookup table used later in lecture 3), the gradients are getting overwritten. Multivariate calculus tells us we should just be _accumulating_ the gradients.
 
@@ -60,6 +61,7 @@ Finally, we implement:
 - a Neuron (a collection of _nin_ weight Values, a bias b, an activation fn. and a call dunder)
 - a Layer (a collection of _nout_ Neurons with _nin_ inputs each, and a call dunder)
 - a Multi-Layer Percentron or MLP (a collection of layers were with specified input/output size for each Layer, including the output layer, and a call dunder)
+
 ### **_What next? What do we do with these gradients?_**
 
 Up to now, we’ve explored what gradients are, and how to calculate them, but we don’t know what to do with them.
@@ -84,6 +86,7 @@ The key thing to realize is the backward() is only re-calculating the gradients 
 
 - The question I always have: why can we update all weights at once? When we update layer n, then update layer n-1, we’re using stale gradients for layer n, no?
 	- My guess is, even if the grad is stale, it’s still directionally correct, so it mostly works.
+
 ### **Todo**
 
 - [ ] Ask question on YouTube.
