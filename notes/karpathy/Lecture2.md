@@ -6,7 +6,7 @@ makemore is a model that tries to generate new “human-like” names from scrat
 The input is some part of the name so far (ex: the last character, which could just be `<START>`), the output is a distribution of the likelihood of all 26 letters (and `<END>`) to come next, given the input. This distribution is **sampled** to get the next character. The sampling is why it can produce multiple different answers and there isn’t just one “right” answer with the most likely char.
 
 We will do this using a number of approaches:
-1. Bigrams: Track the frequency that letters appear next to each other to build an output distribution: P(letter X | letter Y just appeared)
+1. Bigrams: Track the frequency that letters appear next to each other to build an output distribution: P(letter X \| letter Y just appeared)
 2. Bag of words?
 ### **Model 1: Bigrams**
 
