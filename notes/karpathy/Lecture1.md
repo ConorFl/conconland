@@ -5,7 +5,7 @@ We’re going to build an **Autograd** (automatic gradient) engine to perform ba
 
 The big deal is that we can build a graph (ex: L = a * b + c - b, and then run L.backward(), which will calculate dL/da, dL/db, …). These gradients are how NN weights get tuned to minimize loss. 
 
-**Remember: a NN is just a mathematical expression.**
+**Remember:** a NN is just a mathematical expression.
 
 The first 20 minutes or so are used to review what a derivative is, and what a partial derivative is (ex: what _exactly_ is dL/da from above?).
 
