@@ -85,6 +85,7 @@ The key thing to realize is the backward() is only re-calculating the gradients 
 - The question I always have: why can we update all weights at once? When we update layer n, then update layer n-1, we’re using stale gradients for layer n, no?
 	- My guess is, even if the grad is stale, it’s still directionally correct, so it mostly works.
 ### **Todo**
+
 - [ ] Ask question on YouTube.
 - [x] He mentioned a discussion forum! At the very end.
 - [x] Go over the extra classification notebook on GitHub.
