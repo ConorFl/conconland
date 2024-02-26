@@ -16,13 +16,13 @@ Ok, now it’s easier to retrain the model with a context window of 8 characters
 The idea behind WaveNet is to combine the embeddings little by little. With one flat layer, we can only identify linear relationships between different characters in the embedding.
 
 In our current (length 8 context) model, we concatenate all 8 characters:
-
+```
 (1 2 3 4 5 6 7 8)
-
+```
 Instead, we want to concatenate only 2 at a time.
-
+```
 (1 2) (3 4) (5 6) (7 8)
-
+```
 and run all of them through the same weights (a convolution).
 
 **Math sidenote:** so far, for matrix multiplication we’ve seen shapes like (a, b) @ (b, c) = (a, c). It doesn’t need to be 2 dimensions, as long as the touching dimensions are identical (ex: (a, b, c) @ (c, d) = (a, b, d)).
