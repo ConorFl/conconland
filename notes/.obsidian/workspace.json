@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "karpathy/Lecture 2.md",
+                "file": "karpathy/Lecture2.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "karpathy/Lecture 3.md",
+                "file": "karpathy/Lecture3.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "karpathy/Lecture 7.md",
+                "file": "karpathy/Lecture6.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "karpathy/Lecture 7.md",
+                "file": "karpathy/Lecture6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "karpathy/Lecture 7.md",
+                "file": "karpathy/Lecture6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "karpathy/Lecture 7.md"
+                "file": "karpathy/Lecture6.md"
               }
             }
           }
@@ -173,12 +173,12 @@
   },
   "active": "15e4febe4566ac9d",
   "lastOpenFiles": [
-    "karpathy/Lecture 5.md",
-    "karpathy/Lecture 7.md",
-    "karpathy/Untitled",
-    "karpathy/Lecture 4.md",
-    "karpathy/Lecture 3.md",
-    "karpathy/Lecture 2.md",
-    "karpathy/Lecture 1.md"
+    "karpathy/Lecture5.md",
+    "karpathy/Lecture4.md",
+    "karpathy/Lecture3.md",
+    "karpathy/Lecture2.md",
+    "karpathy/Lecture1.md",
+    "karpathy/Lecture6.md",
+    "karpathy/Untitled"
   ]
 }
