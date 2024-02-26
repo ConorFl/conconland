@@ -1,8 +1,4 @@
----
-layout: default
-title: Lecture 1
----
-# The spelled-out intro to neural networks and backpropagation - building micrograd
+# The spelled-out intro to neural networks and backpropagation: building micrograd
 
 We’re going to build an **Autograd** (automatic gradient) engine to perform backpropagation (reverse-mode autodiff), which allows you to efficiently evaluate the gradient of some loss function, with respect to the weights of a NN. This allows us to tune the weights to minimize the loss.
 ### **_What’s the big deal about this little library?_**
