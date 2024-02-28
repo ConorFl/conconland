@@ -1,5 +1,7 @@
 # **Building makemore Part 4: Becoming a Backprop Ninja**
 
+source: <https://www.youtube.com/watch?v=q8SA3rM6ckI&t>
+
 This video doesn’t lend itself to these conversational notes. In this video, the goal is to do `loss.backward()` by hand and calculate the gradients (dloss/dw) for every intermediate w.
 
 The idea is that back in the day (2012) people needed to do this and something is lost by not going through the exercise.

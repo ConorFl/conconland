@@ -1,5 +1,7 @@
 # The spelled-out intro to language modeling: building makemore
 
+source: <https://www.youtube.com/watch?v=PaCmpygFfXo&t>
+
 makemore is a model that tries to generate new “human-like” names from scratch (ex: Jilliam might be a name it makes up). It is a character level language model (as opposed to a word level like Chat-GPT). 
 ### **_How exactly does a model “generate” new names? What are the inputs/outputs?_**
 
