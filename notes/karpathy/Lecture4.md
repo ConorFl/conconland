@@ -1,6 +1,6 @@
 # **Building makemore Part 3: Activations & Gradients, BatchNorm**
 
-source: <https://www.youtube.com/watch?v=P6sfmUTpUmc>
+[source](https://www.youtube.com/watch?v=P6sfmUTpUmc)
 
 We want to look at RNN’s eventually, but let’s hang back a little longer and learn more about activations and gradients. This will also help us understand what makes RNN’s tricky to optimize.
 

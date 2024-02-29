@@ -1,6 +1,6 @@
 ### **Building makemore Part 2: MLP**
 
-source: <https://www.youtube.com/watch?v=TCH_1BHY58I&t>
+[source](https://www.youtube.com/watch?v=TCH_1BHY58I&t)
 
 Models 1 and 2 only considered a single previous letter in a word (name).
 

@@ -1,6 +1,6 @@
 # **Building make more Part 5: Building a WaveNet**
 
-source: <https://www.youtube.com/watch?v=t3YJ5hKiMQ0> 
+[source](https://www.youtube.com/watch?v=t3YJ5hKiMQ0)
 
 So far, makemore is a fairly simple NN with a single hidden layer. It takes 3 characters in as input. To improve the model, we want to:
 

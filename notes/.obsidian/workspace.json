@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "karpathy/Lecture6.md",
+                "file": "karpathy/Lecture1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "karpathy/Lecture6.md",
+                "file": "karpathy/Lecture1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "karpathy/Lecture6.md",
+                "file": "karpathy/Lecture1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "karpathy/Lecture6.md"
+                "file": "karpathy/Lecture1.md"
               }
             }
           }
@@ -148,12 +148,12 @@
   },
   "active": "3eb8c227b45f56af",
   "lastOpenFiles": [
-    "karpathy/Lecture5.md",
-    "karpathy/Lecture4.md",
-    "karpathy/Lecture1.md",
     "karpathy/Lecture2.md",
     "karpathy/Lecture3.md",
+    "karpathy/Lecture4.md",
+    "karpathy/Lecture5.md",
     "karpathy/Lecture6.md",
+    "karpathy/Lecture1.md",
     "karpathy/Untitled"
   ]
 }
