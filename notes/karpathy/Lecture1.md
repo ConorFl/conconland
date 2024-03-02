@@ -16,7 +16,7 @@ We next start building out Value objects. We don’t want a, b, c, L, to just be
 
 The usefulness will become more apparent over time. We want to maintain a graph of how each number is calculated (the two “children” and operation that created the Value object), and later, each Value will have a gradient instance value that will be important for backprop and tuning.
 
-The next few minutes build out Values by adding dunders  __add__, __mult__, adding labels and visualization.
+The next few minutes build out Values by adding dunders __add__, __mult__, adding labels and visualization.
 ### **_Let’s start backprop (manually)_**
 
 dL/dL is just 1.0.
@@ -28,6 +28,7 @@ Then we revisit the calculus. Notably:
 - dL/dc = dL/dd * dd/dc (Chain Rule)
 
 Some interesting observations when viewing the graph:
+
 - For addition in the graph, the local derivative will be 1.0 (c = a + b, dc/da = 1.0), so dL/dc = dL/dd * 1.0, therefore we basically just push back the gradient from the sum Value node.
 - For multiplication, the local derivative of one factor is the other (c = a * b, dc/da = b). So the gradients are just the factors swapped, times the gradient of the product Value node.
 
