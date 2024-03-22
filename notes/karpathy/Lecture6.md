@@ -57,4 +57,4 @@ Not exactly, due to the inefficiency in how we implemented it. Think of our trai
 ****dion -> d
 ```
 
-Each of these will pass through the network as a different training example. That means `(di)` will go through twice (row 2, 4, etc.). This is inefficient. In a CNN, these inefficiencies are addressed. You can this of a CNN as like a for loop sliding over the full name Diondra.
+Each of these will pass through the network as a different training example. That means `(di)` will go through twice (row 2, 4, etc.). This is inefficient. In a CNN, these inefficiencies are addressed. You can think of a CNN as like a for loop sliding over the full name Diondra.
